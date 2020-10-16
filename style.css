@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+    color: rgb(255, 19, 107)
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+nav {
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 19, 107);
+    font-size: 20px;
+    margin: 0px 20px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.Strapline-container {
+    height: 85%;
+    width: 90%;
+    border: 2px solid rgb(255, 19, 107);
+    text-align: center;
+    margin: auto auto;
+    background-image: url(./Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-strapline {
+    color: rgb(255, 19, 107);
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.second-strapline {
+    color: #ffffdd;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 19, 107);
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+
+/* About Section*/
+
+.about-section {
+    width: 100vw;
+    height: 90vh;
+}
+
+.about-container {
+    
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    text-align: justify;
+    line-height: 220%;
+    width: 45%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.right-box {
+    width: 40%;
+    margin-left: 6%;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.grid-image-one {
+    width: 50%;
+    height: 240px;
+    margin: 5 5;
+}
+
+#box1 {
+    background-image: url("./Images/Skyline.jpg");
+    background-position: center;
+    background-size: cover;
+}
+ #box2 {
+     background-image: url("./Images/Donut1.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+#box3 {
+    background-image: url("./Images/Coffee1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#box4 {
+    background-image: url(./Images/Coffee2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+ /* Donut Section */
+
+.donut-section {
+    width: 100vw;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.row-one, .row-three, .row-two {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.grid-item {
+    width: 30%;
+    height: 310px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.grid-item:hover {
+    opacity: 0.80;
+}
+
+#D1 {
+    background-image: url(./Images/D1.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#D2 {
+    background-image: url(./Images/D2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#D3 {
+    background-image: url(./Images/D3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#D4 {
+    background-image: url(./Images/D4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#D5 {
+    background-image: url(./Images/D5.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#D6 {
+    background-image: url(./Images/D6.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#D7 {
+    background-image: url(./Images/D7.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#D8 {
+    background-image: url(./Images/D8.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#D9 {
+    background-image: url(./Images/D9.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.stores-section {
+    width: 100vw;
+}
+
+.Stores-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.Parkdale {
+
+    height: 240px;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
+
+.Spadina {
+
+    height: 240px;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.Old-Town {
+
+    height: 240px;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.Contact-Section {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(255, 19, 107);
+    text-align: center;
+    color: #ffffdd;
+}
+
+.contact-title {
+    margin: 25px 0;
+    font-family: 'Poppins';
+    font-size: 240%;
+    text-transform: uppercase;
+
+}
+
+.email {
+    font-size: 130%;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.social-media-icon {
+    margin: 7.5px;
+}
